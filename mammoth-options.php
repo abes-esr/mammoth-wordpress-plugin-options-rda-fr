@@ -1,9 +1,8 @@
 <?php
 /*
-Plugin Name: Custom Mammoth options
+Plugin Name: Mammoth options pour site RDA-FR
 Version: 1.0.0
-Author: Michael Williamson
-Author URI: http://mike.zwobble.org/
+Author: Abes
 License: BSD 2-clause
 */
 
