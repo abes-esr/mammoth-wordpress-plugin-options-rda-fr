@@ -14,6 +14,6 @@ function mammoth_options_load_javascript() {
 }
 
 function mammoth_options_load_script( $name ) {
-    $url = plugins_url( 'mammoth-options/' . $name . '.js' );
+    $url = plugins_url( basename(__DIR__) . '/' . $name . '.js' );
     echo '<script src="'. $url . '?v=1.0.0"></script>';
 }
